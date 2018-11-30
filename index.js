@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 
 import {
     View,
-    ViewPropTypes
+    ViewPropTypes,
     StyleSheet,
     Dimensions,
     Modal,

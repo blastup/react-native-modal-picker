@@ -7,7 +7,7 @@ const {height, width} = Dimensions.get('window');
 const PADDING = 8;
 const BORDER_RADIUS = 5;
 const FONT_SIZE = 16;
-const HIGHLIGHT_COLOR = 'rgba(0,118,255,0.9)';
+const HIGHLIGHT_COLOR = '#000';
 const OPTION_CONTAINER_HEIGHT = 400;
 
 export default StyleSheet.create({
@@ -22,7 +22,7 @@ export default StyleSheet.create({
         borderRadius:BORDER_RADIUS,
         width:width*0.8,
         height:OPTION_CONTAINER_HEIGHT,
-        backgroundColor:'rgba(255,255,255,0.8)',
+        backgroundColor:'rgba(255,255,255,1)',
         left:width*0.1,
         top:(height-OPTION_CONTAINER_HEIGHT)/2
     },
@@ -49,7 +49,7 @@ export default StyleSheet.create({
     cancelStyle: {
         borderRadius: BORDER_RADIUS,
         width: width * 0.8,
-        backgroundColor: 'rgba(255,255,255,0.8)',
+        backgroundColor: 'rgba(255,255,255,1)',
         padding: PADDING
     },
 
